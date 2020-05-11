@@ -1,0 +1,10 @@
+// Du måste sätta upp denna för att gradle plugins skall fungera
+pluginManagement {
+    repositories{
+        maven{
+            url"${artifactory_gradle_virtual_url}"
+        }
+    }
+}
+
+rootProject.name = 'balthazar'
